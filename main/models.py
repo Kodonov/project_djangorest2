@@ -8,7 +8,6 @@ class Cinema(models.Model):
 
     def __str__(self):
         return self.name
-
 class Genres(models.Model):
     name = models.CharField(max_length=100)
 
